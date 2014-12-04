@@ -10,15 +10,20 @@ namespace indicadores.webapi.Controllers
 {
 
     /// <summary>
-    /// Area's API controller
+    /// Area's controller
     /// </summary>
     public class AreasController : ApiController
     {
 
-        //GET api/Areas/K3000
+
+        /// <summary>
+        /// Get api/Area/K3000
+        /// </summary>
+        /// <param name="id">The area's code</param>
+        /// <returns></returns>
         public AreaModel Get(string id)
         {
-            throw new NotImplementedException();
+            return new AreaModel() { id = 1, totalrevenues = 200, totalexpenditure = 300 };
         }
 
     }
