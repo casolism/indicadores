@@ -1,6 +1,7 @@
 'use strict';
 
 angular.module('dashboardApp', [
+	'dashboardApp.controllers',
 	'ui.router'
 ])
 .config(function($stateProvider, $urlRouterProvider) {
