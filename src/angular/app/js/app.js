@@ -2,6 +2,7 @@
 
 angular.module('dashboardApp', [
 	'dashboardApp.controllers',
+	'dashboardApp.directives',
 	'ui.router'
 ])
 .config(function($stateProvider, $urlRouterProvider) {
